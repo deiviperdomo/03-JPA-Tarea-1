@@ -3,10 +3,12 @@ package es.eviden.club.modelo.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import es.eviden.club.entities.Salida;
 import es.eviden.club.modelo.rpository.SalidaRpository;
 
+@Service
 public class SalidaServiceImpl implements SalidaService {
 
 	@Autowired

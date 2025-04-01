@@ -3,9 +3,12 @@ package es.eviden.club.modelo.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import es.eviden.club.entities.Barco;
 import es.eviden.club.modelo.rpository.BarcoRepository;
 
+@Service
 public class BarcoServiceImpl implements BarcoService {
 
 	@Autowired
